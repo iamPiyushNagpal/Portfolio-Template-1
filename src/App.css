@@ -84,25 +84,3 @@ td:not([align]),
 th:not([align]) {
     text-align: left;
 }
-
-.sections {
-    padding: 1rem;
-}
-
-@media (min-width: 576px) {
-    .sections {
-        padding: 1rem 2.5rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .sections {
-        padding: 1rem 4rem;
-    }
-}
-
-@media (min-width: 992px) {
-    .sections {
-        padding: 0 5rem;
-    }
-}
