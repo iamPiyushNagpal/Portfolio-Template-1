@@ -19,3 +19,28 @@
         padding: 0 5rem;
     }
 }
+
+.projects .projects__heading h1 {
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+@media (min-width: 576px) {
+    .projects .projects__heading h1 {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .projects .projects__heading h1 {
+        font-size: 2.3rem;
+    }
+
+    .projects__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
