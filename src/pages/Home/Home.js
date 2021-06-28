@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Intro from '../../components/Intro/Intro';
 import Project from '../../components/Project/Project';
 import ProjectImage from '../../assets/images/ProjectImage.jpg';
+import Contact from '../../components/Contact/Contact';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
                         <Project image={ProjectImage} projectTitle="Heading" projectDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" />
                     </div>
                 </div>
+                <Contact />
             </div>
         </div>
     );
