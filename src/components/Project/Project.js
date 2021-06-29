@@ -2,7 +2,7 @@ import './Project.css';
 
 const Project = ({ projectTitle, projectDescription, image }) => {
     return (
-        <div className="project">
+        <div className="project " data-aos="fade-up" data-aos-duration="800">
             <img src={image} alt="" />
             <div className="project__overlay">
                 <h1 class="project__title">{projectTitle}</h1>
