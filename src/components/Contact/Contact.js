@@ -6,7 +6,7 @@ import { faGithub, faFacebook, faLinkedin, faTelegram } from '@fortawesome/free-
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
             <h1>Contact</h1>
             <div className="contact">
                 <div className="contact__options" data-aos="fade-right" data-aos-duration="700">

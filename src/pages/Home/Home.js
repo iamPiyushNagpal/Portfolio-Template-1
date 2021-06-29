@@ -11,7 +11,7 @@ const Home = () => {
             <Navbar />
             <div className="sections">
                 <Intro />
-                <div className="projects">
+                <div id="projects" className="projects">
                     <div className="projects__heading">
                         <h1>Projects</h1>
                     </div>
