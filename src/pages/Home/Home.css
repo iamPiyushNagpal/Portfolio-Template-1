@@ -23,6 +23,7 @@
 .projects .projects__heading h1 {
     font-size: 1.35rem;
     font-weight: 600;
+    text-align: center;
 }
 
 @media (min-width: 576px) {
