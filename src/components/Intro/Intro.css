@@ -55,6 +55,7 @@
     .intro {
         display: flex;
         padding: 9.5rem 0;
+        justify-content: space-between;
     }
 
     .intro .intro__text {
@@ -78,8 +79,7 @@
     }
 
     .intro .intro__image img {
-        margin: auto;
-        width: auto;
+        max-width: 120%;
     }
 }
 
@@ -97,5 +97,9 @@
 
     .intro .intro__text p {
         font-size: 1.2rem;
+    }
+
+    .intro .intro__image img {
+        max-width: 100%;
     }
 }
