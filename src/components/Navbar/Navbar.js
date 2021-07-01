@@ -25,7 +25,6 @@ const Navbar = () => {
                 </svg>
             </button>
             <ul className="menu">
-                <li><a href="#">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
