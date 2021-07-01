@@ -14,7 +14,7 @@
 .navbar .hamburger {
   height: 40px;
   width: 40px;
-  background-color: white;
+  background-color: var(--bg-color);
   outline: none;
   border: none;
 }
