@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
 
     const [notExpanded, setNotExpanded] = useState(true);
+    const [darkTheme, setdarkTheme] = useState(false);
 
     const handleToggle = () => {
         console.log(" Before " + notExpanded);
@@ -15,9 +18,21 @@ const Navbar = () => {
         console.log(" After " + notExpanded);
     }
 
+    const handleThemeSwitch = () => {
+        if (!darkTheme) {
+            setdarkTheme(true);
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        else {
+            setdarkTheme(false);
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    }
+
     return (
         <div className={notExpanded ? "navbar" : "navbar expanded"}>
             <h1 className="logo">John Doe</h1>
+            <button className="theme-switch-button" onClick={handleThemeSwitch}><FontAwesomeIcon icon={darkTheme ? faMoon : faSun} /></button>
             <button className="hamburger" onClick={handleToggle}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path className="open" fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />

@@ -1,20 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+:root {
+  --primary-color: #6d62fd;
+  --font-color: black;
+  --bg-color: white;
+  --heading-color: black;
+  --project-card-font-color: white;
+}
+
+[data-theme="dark"] {
+  --primary-color: #6d62fd;
+  --font-color: white;
+  --bg-color: #1e1e30;
+  --heading-color: white;
 }
 
 /* CSS Reset  */
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 article,
@@ -28,7 +45,7 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 h1,
@@ -37,26 +54,26 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 100%;
-    font-weight: normal;
+  font-size: 100%;
+  font-weight: normal;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 button,
 input,
 select,
 textarea {
-    font: inherit;
+  font: inherit;
 }
 
 button,
@@ -64,27 +81,27 @@ button,
 [type="reset"],
 [type="submit"],
 [role="button"] {
-    cursor: pointer;
-    color: inherit;
+  cursor: pointer;
+  color: inherit;
 }
 
 img,
 video {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 td,
 th {
-    padding: 0;
+  padding: 0;
 }
 
 td:not([align]),
 th:not([align]) {
-    text-align: left;
+  text-align: left;
 }

@@ -5,7 +5,7 @@
   border: none;
   font-size: 25px;
   color: white;
-  background-color: #6d62fd;
+  background-color: var(--primary-color);
   width: 40px;
   height: 40px;
   border-radius: 50%;
