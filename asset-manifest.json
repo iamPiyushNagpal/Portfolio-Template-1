@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-Template-1/static/css/main.bf648c66.chunk.css",
-    "main.js": "/Portfolio-Template-1/static/js/main.bf988349.chunk.js",
-    "main.js.map": "/Portfolio-Template-1/static/js/main.bf988349.chunk.js.map",
+    "main.css": "/Portfolio-Template-1/static/css/main.a379e872.chunk.css",
+    "main.js": "/Portfolio-Template-1/static/js/main.ce81fef1.chunk.js",
+    "main.js.map": "/Portfolio-Template-1/static/js/main.ce81fef1.chunk.js.map",
     "runtime-main.js": "/Portfolio-Template-1/static/js/runtime-main.8b3dbe20.js",
     "runtime-main.js.map": "/Portfolio-Template-1/static/js/runtime-main.8b3dbe20.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Portfolio-Template-1/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.b0371a90.chunk.js": "/Portfolio-Template-1/static/js/2.b0371a90.chunk.js",
-    "static/js/2.b0371a90.chunk.js.map": "/Portfolio-Template-1/static/js/2.b0371a90.chunk.js.map",
+    "static/js/2.fbdbfc52.chunk.js": "/Portfolio-Template-1/static/js/2.fbdbfc52.chunk.js",
+    "static/js/2.fbdbfc52.chunk.js.map": "/Portfolio-Template-1/static/js/2.fbdbfc52.chunk.js.map",
     "index.html": "/Portfolio-Template-1/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio-Template-1/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.bf648c66.chunk.css.map": "/Portfolio-Template-1/static/css/main.bf648c66.chunk.css.map",
-    "static/js/2.b0371a90.chunk.js.LICENSE.txt": "/Portfolio-Template-1/static/js/2.b0371a90.chunk.js.LICENSE.txt",
+    "static/css/main.a379e872.chunk.css.map": "/Portfolio-Template-1/static/css/main.a379e872.chunk.css.map",
+    "static/js/2.fbdbfc52.chunk.js.LICENSE.txt": "/Portfolio-Template-1/static/js/2.fbdbfc52.chunk.js.LICENSE.txt",
     "static/media/Contact.7648022b.svg": "/Portfolio-Template-1/static/media/Contact.7648022b.svg",
     "static/media/IntroImage.0239a64b.svg": "/Portfolio-Template-1/static/media/IntroImage.0239a64b.svg",
     "static/media/ProjectImage.98876de9.jpg": "/Portfolio-Template-1/static/media/ProjectImage.98876de9.jpg"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.8b3dbe20.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.b0371a90.chunk.js",
-    "static/css/main.bf648c66.chunk.css",
-    "static/js/main.bf988349.chunk.js"
+    "static/js/2.fbdbfc52.chunk.js",
+    "static/css/main.a379e872.chunk.css",
+    "static/js/main.ce81fef1.chunk.js"
   ]
 }
