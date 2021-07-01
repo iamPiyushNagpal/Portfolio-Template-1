@@ -4,6 +4,7 @@ import Intro from '../../components/Intro/Intro';
 import Project from '../../components/Project/Project';
 import ProjectImage from '../../assets/images/ProjectImage.jpg';
 import Contact from '../../components/Contact/Contact';
+import ScrollToTopButton from "../../components/ScrollToTopButton/ScrollToTopButton";
 
 const Home = () => {
     return (
@@ -26,6 +27,7 @@ const Home = () => {
                 </div>
                 <Contact />
             </div>
+            <ScrollToTopButton />
         </div>
     );
 }
