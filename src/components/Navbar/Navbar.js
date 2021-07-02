@@ -3,10 +3,9 @@ import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
+const Navbar = ({ darkTheme, setDarkTheme }) => {
 
     const [notExpanded, setNotExpanded] = useState(true);
-    const [darkTheme, setdarkTheme] = useState(false);
 
     const handleToggle = () => {
         console.log(" Before " + notExpanded);
@@ -20,12 +19,14 @@ const Navbar = () => {
 
     const handleThemeSwitch = () => {
         if (!darkTheme) {
-            setdarkTheme(true);
+            setDarkTheme(true);
             document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem("theme", "dark");
         }
         else {
-            setdarkTheme(false);
+            setDarkTheme(false);
             document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem("theme", "light");
         }
     }
 

@@ -5,11 +5,18 @@ import Project from '../../components/Project/Project';
 import ProjectImage from '../../assets/images/ProjectImage.jpg';
 import Contact from '../../components/Contact/Contact';
 import ScrollToTopButton from "../../components/ScrollToTopButton/ScrollToTopButton";
+import { useState } from 'react';
 
 const Home = () => {
+
+    const [darkTheme, setDarkTheme] = useState(localStorage.getItem("theme") === "dark" ? true : false);
+
+    if (darkTheme)
+        document.documentElement.setAttribute('data-theme', "dark");
+
     return (
         <div className="home">
-            <Navbar />
+            <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
             <div className="sections">
                 <Intro />
                 <div id="projects" className="projects">
